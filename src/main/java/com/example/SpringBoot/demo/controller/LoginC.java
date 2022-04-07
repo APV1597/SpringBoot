@@ -8,6 +8,7 @@ public class LoginC {
 @RequestMapping("/login")
 public String print()
 {
+	System.Out.Print("Test")
 	return "login";
 }
 	
